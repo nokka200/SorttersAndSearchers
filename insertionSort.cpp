@@ -4,7 +4,9 @@
 // clang++ -o insertionSort insertionSort.cpp -std=c++20
 // source https://en.wikipedia.org/wiki/Insertion_sort#List_insertion_sort_code_in_C
 
-std::vector<int> insertionSort(std::vector<int> listToSort, bool debugA2=true);
+// TODO make a template so it will accept any list !
+
+std::vector<int> insertionSort(std::vector<int> listToSort, bool debugA2=false);
 
 int main()
 {
