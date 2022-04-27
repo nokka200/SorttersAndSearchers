@@ -9,7 +9,7 @@ bool linearSearch(std::vector<int>listToSearchA1, int target, bool debugA2=false
 int main()
 {
     std::vector<int> listToSearch = {19, 37, 53, 71, 96, 137, 289, 374, 559, 797, 979};
-    std::cout << linearSearch(listToSearch, 797, true);
+    std::cout << linearSearch(listToSearch, 979, true);
 
     return 0;
 }
@@ -22,7 +22,7 @@ bool linearSearch(std::vector<int>listToSearchA1, int target, bool debugA2)
     {
         if (debugA2)
         {
-           std::cout << "target not found" << std::endl;
+           std::cout << "target not found, list empty." << std::endl;
            std::cout << "count: " << count << std::endl;
         }
         // checks if list is empty
