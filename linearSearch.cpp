@@ -4,6 +4,10 @@
 // clang++ -o linearSearch linearSearch.cpp -std=c++20
 // source https://en.wikipedia.org/wiki/Linear_search
 
+/*
+Will search an int value in target list
+*/
+
 bool linearSearch(std::vector<int>listToSearchA1, int target, bool debugA2=false);
 
 int main()
